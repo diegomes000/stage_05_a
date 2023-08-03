@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+body {
+    background: linear-gradient(315deg, #C2E9FB 0%, #A1C4FD 100%);
+    font-size: 1.6rem;
+    display: grid;
+
+    /* centralização do main*/
+    place-items: center;
+    height: 100vh;
+}
+
+
+.hiding {
+    display: none;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4.8rem 6.4rem 6.4rem 6.4rem;
+
+    border-radius: 0.6rem;
+    background: #FFF;
+    box-shadow: 0rem 0.2rem 0.4rem 0rem rgba(0, 0, 0, 0.10);
+    width: min(50rem, 90%);
+
+    font-family: Montserrat, sans-serif;
+    font-size: 2.4rem;
+    font-weight: 600;
+    text-align: center;
+
+    /* centralização do main ajuste visual a menos de 100vh*/
+    margin-top: -12rem;
+}
+
+h1 {
+    color: #34355B;
+    font-size: 2.4rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+p {
+    color: rgba(52, 53, 91, 0.80);
+    font-family: DM Sans;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 150%; /* 24px */
+
+    margin-top: 1.6rem;
+}
+
+form {
+    font-family: DM Sans, sans-serif;
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: #34355B;
+    margin-top: 4.8rem;
+
+
+    /* tirar a separação entre input e button */
+    display: flex;
+    justify-content: center;
+}
+
+input, button {
+    border: none;
+    padding: 1.6rem;
+}
+
+input {
+    background: #DCE2E9;
+    border-radius: 0.4rem 0.0rem 0.0rem 0.4rem;
+    width: 10rem;
+    text-align: center;
+}
+
+button {
+    border-radius: 0.0rem 0.4rem 0.4rem 0.0rem;
+    background: var(--iris-80, #7879F1);
+    color: var(--neutral-white, #FFF);
+    width: 10rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition:  .3s;
+}
+
+button:hover {
+    background: var(--iris-80, #5e5ec2);
+
+}
+
+/* screen2 */
+
+
+
+
+h2 {
+    color: #34355B;
+    text-align: center;
+    font-family: DM Sans;
+    font-size: 2.4rem;
+    font-weight: 400;
+    line-height: 150%; /* 36px */
+}
+
+.screen2 button {
+    border-radius: 0.4rem;
+    margin-top: 3.3rem;
+
+}
